@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="5gi-fc-qIA">
-                                <rect key="frame" x="24" y="306.5" width="327" height="74.5"/>
+                                <rect key="frame" x="24" y="279.5" width="327" height="128.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oz6-c5-Cwc">
                                         <rect key="frame" x="0.0" y="0.0" width="327" height="20.5"/>
@@ -35,6 +35,16 @@
                                         </state>
                                         <connections>
                                             <action selector="goToWatch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Urp-Fa-emB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2g-q7-SMD">
+                                        <rect key="frame" x="0.0" y="98.5" width="327" height="30"/>
+                                        <color key="backgroundColor" red="0.93000000000000005" green="0.01" blue="0.48999999999999999" alpha="0.74746577995867769" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Send Notification">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="sendNotification:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pf5-NC-3Ng"/>
                                         </connections>
                                     </button>
                                 </subviews>
